@@ -22,22 +22,7 @@
         },
       };
     </script>
-    <style>
-      a {
-        color: #0000ff !important;
-        font-weight: bold;
-      }
-      @media print {
-        .no-print {
-          display: none !important;
-        }
-        .print-container {
-          max-width: 100% !important;
-          padding: 0 !important;
-          margin: 0 !important;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body class="bg-gray-100 font-sans text-gray-800">
     <!-- Print Button -->
@@ -57,7 +42,9 @@
       <!-- Header -->
       <header class="text-center mb-6">
         <h1 class="text-3xl font-bold text-gray-900 mb-1">Muhammed Mustafa</h1>
-        <p class="text-xl text-gray-800 font-bold mb-3">Frontend Developer</p>
+        <p class="text-xl text-gray-800 font-bold mb-3">
+          Frontend Developer | Software Engineering
+        </p>
         <p class="text-sm text-gray-800 leading-relaxed">
           <a href="mailto: muhammed.mustafa.work@gmail.com"
             >muhammed.mustafa.work@gmail.com</a
@@ -84,31 +71,26 @@
         </p>
       </section>
 
-      <!-- Technical Skills -->
-      <section class="mb-5">
+      <!-- Education -->
+      <section class="mb-4">
         <h2
-          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-3"
+          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-2"
         >
-          Technical Skills
+          Education
         </h2>
-        <div class="text-sm text-gray-800 space-y-1">
-          <p>
-            <strong>Frontend:</strong> Vue.js, Nuxt.js, Pinia, JavaScript,
-            TypeScript, HTML5, CSS3, SASS, TailwindCSS, Bootstrap, Responsive
-            Web Design, Firebase, Supabase
+        <article>
+          <h3 class="text-sm font-semibold text-gray-900">
+            Bachelor of Science in Computer Science
+            <span class="font-normal text-sm text-gray-600"
+              >(Graduated: May 2026)</span
+            >
+          </h3>
+          <p class="text-sm text-gray-800">
+            Faculty of Computers and Information, Minia University, Egypt | GPA:
+            3.25 / 4.0
           </p>
-          <p>
-            <strong>Programming & Computer Science:</strong> C++, Data
-            Structures, Algorithms, Object-Oriented Programming (OOP), Design
-            Patterns
-          </p>
-          <p>
-            <strong>Tools & DevOps:</strong> Git, GitHub, Bitbucket, Jira,
-            Version Control, Postman
-          </p>
-        </div>
+        </article>
       </section>
-
       <!-- Professional Experience -->
       <section class="mb-4">
         <h2
@@ -125,11 +107,21 @@
               >(November 2024 – Present)</span
             >
           </h3>
-          <p class="text-sm text-gray-800">
-            Developed responsive web applications using Nuxt.js and Pinia.
-            Collaborated with UI/UX designers and integrated RESTful APIs for
-            real-time data fetching.
-          </p>
+          <ul>
+            <li class="text-sm text-gray-800">
+              Optimized data fetching performance by 20% by integrating
+              efficient RESTful APIs and implementing state management with
+              Pinia.
+            </li>
+            <li class="text-sm text-gray-800">
+              Actively identified, debugged, and resolved frontend layout shifts
+              and server-side script errors, ensuring a seamless web experience.
+            </li>
+            <li class="text-sm text-gray-800">
+              Maintained and updated internal engineering docs and deployment
+              workflows to support codebase transparency.
+            </li>
+          </ul>
         </article>
 
         <!-- Job 2 -->
@@ -140,11 +132,21 @@
               >(September 2024 – November 2024)</span
             >
           </h3>
-          <p class="text-sm text-gray-800">
-            Built responsive web applications using Vue.js with PHP Blade.
-            Ensured 100% cross-browser compatibility and mobile-first
-            responsiveness across various devices and platforms.
-          </p>
+          <ul>
+            <li class="text-sm text-gray-800">
+              Built responsive web applications using Vue.js with PHP Blade,
+              ensuring 100% cross-browser compatibility and mobile-first
+              responsiveness.
+            </li>
+            <li class="text-sm text-gray-800">
+              Collaborated directly in a distributed agile environment to write
+              clean, testable code for user interfaces.
+            </li>
+            <li class="text-sm text-gray-800">
+              Managed reliable data handshakes with server environments,
+              assisting in frontend-to-backend integration.
+            </li>
+          </ul>
         </article>
       </section>
 
@@ -159,69 +161,139 @@
         <!-- Project 4-->
         <article class="mb-2">
           <h3 class="text-sm font-semibold text-gray-900">
-            Tasis — Entrepreneurship Platform
-            <a href="https://tasis.com.sa/">(Live)</a>
+            DuoCode - Gamified Educational Platform & Application
+            <a href="https://duo-code.tech/">(duo-code.tech)</a>
           </h3>
-          <p class="text-sm text-gray-800">
-            Interactive platform connecting entrepreneurial idea owners with
-            investors and financing companies.
-          </p>
+          <ul>
+            <li class="text-sm text-gray-800">
+              Led a team of 5 developers to architect and build a comprehensive
+              programming education platform featuring gamification elements.
+            </li>
+            <li class="text-sm text-gray-800">
+              Designed the full-stack architecture, optimized PostgreSQL
+              database queries, and ensured reliable API data handshakes.
+            </li>
+          </ul>
+        </article>
+
+        <article class="mb-2">
+          <h3 class="text-sm font-semibold text-gray-900">
+            Tasis — Entrepreneurship Platform
+            <a href="https://tasis.com.sa/">(tasis.com.sa)</a>
+          </h3>
+          <ul>
+            <li class="text-sm text-gray-800">
+              Built and optimized complex MongoDB database queries for a
+              filtering system to accurately match investors with startups,
+              driving direct business impact.
+            </li>
+          </ul>
         </article>
 
         <!-- Project 3 -->
         <article class="mb-2">
           <h3 class="text-sm font-semibold text-gray-900">
             Marsaai Seafood — Restaurant Web Application
-            <a href="https://marsaai.com/">(Live)</a>
+            <a href="https://marsaai.com/">(marsaai.com)</a>
           </h3>
-          <p class="text-sm text-gray-800">
-            Responsive platform for menu exploration and table reservations.
-            Built with Nuxt.js and TailwindCSS.
-          </p>
+          <ul>
+            <li class="text-sm text-gray-800">
+              Built a responsive platform for menu exploration and table
+              reservations using Nuxt.js and TailwindCSS.
+            </li>
+            <li class="text-sm text-gray-800">
+              Handled bug remediation for UI components to ensure smooth,
+              uninterrupted user flows.
+            </li>
+          </ul>
         </article>
 
         <!-- Project 2 -->
         <article class="mb-2">
           <h3 class="text-sm font-semibold text-gray-900">
             Shure Medical — Healthcare Web Application
-            <a href="https://shureapp.com/">(Live)</a>
+            <a href="https://shureapp.com/">(shureapp.com)</a>
           </h3>
-          <p class="text-sm text-gray-800">
-            Medical platform for requesting healthcare consultations with
-            user-friendly interface.
-          </p>
+          <ul>
+            <li class="text-sm text-gray-800">
+              Developed a specialized medical platform for requesting healthcare
+              consultations with a focus on a user-friendly interface.
+            </li>
+            <li class="text-sm text-gray-800">
+              Integrated core APIs to manage patient data requests, ensuring
+              reliable data handshakes and secure information handling.
+            </li>
+          </ul>
         </article>
         <!-- Project 1 -->
         <article class="">
           <h3 class="text-sm font-semibold text-gray-900">
             Arab Therapy — Healthcare Web Application
-            <a href="https://arabtherapy.com/">(Live)</a>
+            <a href="https://arabtherapy.com/">(arabtherapy.com)</a>
           </h3>
-          <p class="text-sm text-gray-800">
-            Secure platform for booking online therapy sessions with
-            Arabic-speaking therapists.
-          </p>
+          <ul>
+            <li class="text-sm text-gray-800">
+              Built a secure platform for booking online therapy sessions with
+              Arabic-speaking therapists using Vue.js.
+            </li>
+            <li class="text-sm text-gray-800">
+              Ensured cross-browser compatibility and optimized API integration
+              to maintain high performance during patient-therapist
+              communication.
+            </li>
+          </ul>
         </article>
       </section>
+      <!-- Technical Skills -->
+      <section class="mb-5">
+        <h2
+          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-3"
+        >
+          Technical Skills
+        </h2>
+        <div class="text-sm text-gray-800 space-y-1">
+          <p>
+            <strong>Frontend:</strong> Vue.js, Nuxt.js, Pinia, JavaScript,
+            TypeScript, HTML5, CSS3, SASS, TailwindCSS, Bootstrap, Responsive
+            Web Design
+          </p>
+          <p>
+            <strong>Software Engineering:</strong> Git/GitHub, Bug Remediation,
+            Technical Documentation, Data Structures & Algorithms, OOP, Clean
+            Code, Unit Testing, Scrum, Agile Methodologies
+          </p>
+          <p>
+            <strong>Tools:</strong> Git/GitHub, Bitbucket, Jira, Figma, Postman,
+            GitHub Copilot,Visual Studio Code, Cursor, Antigravity
+          </p>
+        </div>
+      </section>
 
-      <!-- Education -->
+      <!-- CERTIFICATIONS -->
       <section class="mb-4">
         <h2
           class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-2"
         >
-          Education
+          CERTIFICATIONS
         </h2>
         <article>
-          <h3 class="text-sm font-semibold text-gray-900">
-            Bachelor of Science in Computer Science
-            <span class="font-normal text-xs text-gray-600"
-              >(October 2022 – May 2026)</span
-            >
-          </h3>
-          <p class="text-sm text-gray-800">
-            Faculty of Computers and Information, Minia University, Egypt | GPA:
-            3.25 / 4.0
-          </p>
+          <ul>
+            <li class="text-sm text-gray-800">
+              <a
+                href="https://drive.google.com/file/d/1belATqICerDNF0Pp79d2RaGvdVpF2LoS/view?usp=drive_link"
+                >ITI</a
+              >
+              (Information Technology Institute) - Professional Training Program
+            </li>
+            <li class="text-sm text-gray-800">
+              <a
+                href="https://drive.google.com/file/d/1SwP5dsTdBVNqeShRKQHbs6xDl3eI0o0_/view?usp=drive_link"
+                >NTI</a
+              >
+              (National Telecommunication Institute) - Specialized Technical
+              Training
+            </li>
+          </ul>
         </article>
       </section>
 
@@ -232,10 +304,19 @@
         >
           Activities & Achievements
         </h2>
-        <p class="text-sm text-gray-800">
-          Head of Technical & Instructor at Bright Future Team. Participant in
-          2024 ICPC ECPC Qualifications.
-        </p>
+        <ul>
+          <li class="text-sm text-gray-800">
+            <a
+              href="https://drive.google.com/file/d/1sE_RikHx2YfYsm7l95W4-qlgjGhd5hSz/view?usp=drive_link"
+              >2024 ICPC ECPC Qualifications</a
+            >
+            - Participant
+          </li>
+          <li class="text-sm text-gray-800">
+            <a href="https://www.brightmu.com/">Bright Future</a> Team - Head of
+            Technical & Instructor
+          </li>
+        </ul>
       </section>
     </main>
   </body>
