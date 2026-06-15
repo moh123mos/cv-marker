@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammed Mustafa - Frontend Developer Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "Arial", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      a {
+        color: #0000ff !important;
+        font-weight: bold;
+      }
+      @media print {
+        .no-print {
+          display: none !important;
+        }
+        .print-container {
+          max-width: 100% !important;
+          padding: 0 !important;
+          margin: 0 !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 font-sans text-gray-800">
+    <!-- Print Button -->
+    <div class="no-print fixed top-4 right-4 z-50">
+      <button
+        onclick="window.print()"
+        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded shadow-lg"
+      >
+        Print / Save as PDF
+      </button>
+    </div>
+
+    <!-- Resume Container -->
+    <main
+      class="print-container max-w-3xl mx-auto bg-white p-8 my-8 shadow-lg print:shadow-none"
+    >
+      <!-- Header -->
+      <header class="text-center mb-6">
+        <h1 class="text-3xl font-bold text-gray-900 mb-1">Muhammed Mustafa</h1>
+        <p class="text-xl text-gray-800 font-bold mb-3">Frontend Developer</p>
+        <p class="text-sm text-gray-800 leading-relaxed">
+          <a href="mailto: muhammed.mustafa.work@gmail.com"
+            >muhammed.mustafa.work@gmail.com</a
+          >
+          | <a href="tel:+201005323460">(+20) 1005323460</a> | Cairo, Egypt<br />
+          <a href="https://linkedin.com/in/mhamed-mstafa"
+            >linkedin.com/in/mhamed-mstafa</a
+          >
+          | <a href="https://muhammed-mustafa.dev">muhammed-mustafa.dev</a>
+        </p>
+      </header>
+
+      <!-- Professional Summary -->
+      <section class="mb-4">
+        <h2
+          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-2"
+        >
+          Professional Summary
+        </h2>
+        <p class="text-sm text-gray-800 leading-relaxed">
+          Frontend Developer proficient in JavaScript, Vue.js, Nuxt.js.
+          Experienced in building responsive web applications and collaborating
+          with cross-functional teams.
+        </p>
+      </section>
+
+      <!-- Technical Skills -->
+      <section class="mb-5">
+        <h2
+          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-3"
+        >
+          Technical Skills
+        </h2>
+        <div class="text-sm text-gray-800 space-y-1">
+          <p>
+            <strong>Frontend:</strong> Vue.js, Nuxt.js, Pinia, JavaScript,
+            TypeScript, HTML5, CSS3, SASS, TailwindCSS, Bootstrap, Responsive
+            Web Design, Firebase, Supabase
+          </p>
+          <p>
+            <strong>Programming & Computer Science:</strong> C++, Data
+            Structures, Algorithms, Object-Oriented Programming (OOP), Design
+            Patterns
+          </p>
+          <p>
+            <strong>Tools & DevOps:</strong> Git, GitHub, Bitbucket, Jira,
+            Version Control, Postman
+          </p>
+        </div>
+      </section>
+
+      <!-- Professional Experience -->
+      <section class="mb-4">
+        <h2
+          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-2"
+        >
+          Professional Experience
+        </h2>
+
+        <!-- Job 1 -->
+        <article class="mb-3">
+          <h3 class="text-sm font-semibold text-gray-900">
+            Front-End Developer — Tarmeez Tech
+            <span class="font-normal text-xs text-gray-600"
+              >(November 2024 – Present)</span
+            >
+          </h3>
+          <p class="text-sm text-gray-800">
+            Developed responsive web applications using Nuxt.js and Pinia.
+            Collaborated with UI/UX designers and integrated RESTful APIs for
+            real-time data fetching.
+          </p>
+        </article>
+
+        <!-- Job 2 -->
+        <article>
+          <h3 class="text-sm font-semibold text-gray-900">
+            Front-End Developer — Arab Therapy
+            <span class="font-normal text-xs text-gray-600"
+              >(September 2024 – November 2024)</span
+            >
+          </h3>
+          <p class="text-sm text-gray-800">
+            Built responsive web applications using Vue.js with PHP Blade.
+            Ensured 100% cross-browser compatibility and mobile-first
+            responsiveness across various devices and platforms.
+          </p>
+        </article>
+      </section>
+
+      <!-- Projects -->
+      <section class="mb-4">
+        <h2
+          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-2"
+        >
+          Projects
+        </h2>
+
+        <!-- Project 4-->
+        <article class="mb-2">
+          <h3 class="text-sm font-semibold text-gray-900">
+            Tasis — Entrepreneurship Platform
+            <a href="https://tasis.com.sa/">(Live)</a>
+          </h3>
+          <p class="text-sm text-gray-800">
+            Interactive platform connecting entrepreneurial idea owners with
+            investors and financing companies.
+          </p>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="mb-2">
+          <h3 class="text-sm font-semibold text-gray-900">
+            Marsaai Seafood — Restaurant Web Application
+            <a href="https://marsaai.com/">(Live)</a>
+          </h3>
+          <p class="text-sm text-gray-800">
+            Responsive platform for menu exploration and table reservations.
+            Built with Nuxt.js and TailwindCSS.
+          </p>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="mb-2">
+          <h3 class="text-sm font-semibold text-gray-900">
+            Shure Medical — Healthcare Web Application
+            <a href="https://shureapp.com/">(Live)</a>
+          </h3>
+          <p class="text-sm text-gray-800">
+            Medical platform for requesting healthcare consultations with
+            user-friendly interface.
+          </p>
+        </article>
+        <!-- Project 1 -->
+        <article class="">
+          <h3 class="text-sm font-semibold text-gray-900">
+            Arab Therapy — Healthcare Web Application
+            <a href="https://arabtherapy.com/">(Live)</a>
+          </h3>
+          <p class="text-sm text-gray-800">
+            Secure platform for booking online therapy sessions with
+            Arabic-speaking therapists.
+          </p>
+        </article>
+      </section>
+
+      <!-- Education -->
+      <section class="mb-4">
+        <h2
+          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-2"
+        >
+          Education
+        </h2>
+        <article>
+          <h3 class="text-sm font-semibold text-gray-900">
+            Bachelor of Science in Computer Science
+            <span class="font-normal text-xs text-gray-600"
+              >(October 2022 – May 2026)</span
+            >
+          </h3>
+          <p class="text-sm text-gray-800">
+            Faculty of Computers and Information, Minia University, Egypt | GPA:
+            3.25 / 4.0
+          </p>
+        </article>
+      </section>
+
+      <!-- Activities & Achievements -->
+      <section>
+        <h2
+          class="text-base font-semibold text-gray-900 uppercase tracking-wide border-b-2 border-gray-800 pb-1 mb-2"
+        >
+          Activities & Achievements
+        </h2>
+        <p class="text-sm text-gray-800">
+          Head of Technical & Instructor at Bright Future Team. Participant in
+          2024 ICPC ECPC Qualifications.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
